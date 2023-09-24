@@ -1,9 +1,20 @@
 <template>
-  <div>Products</div>
+  <div>
+    Index Product
+    <ul>
+      <li>
+        <NuxtLink to="/">Home</NuxtLink>
+      </li>
+      <li>
+        <NuxtLink to="/about">About</NuxtLink>
+      </li>
+      <li>
+        <NuxtLink to="/products/haha">Productd</NuxtLink>
+      </li>
+    </ul>
+  </div>
 </template>
 
-<script>
-export default {};
-</script>
+<script setup></script>
 
 <style lang="scss" scoped></style>
